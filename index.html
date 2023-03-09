@@ -1,61 +1,39 @@
-<head></head>
-<body>
-    <style>
-     .stretch{
-        background-color: green;
-        border: none;
-        color: white;
-        padding: 8px;
-        padding: 9px;
-        transition: padding 0.2s, font-size 0.2s;
-     }
-     .stretch:hover{
-        padding: 16px;
-        font-size: 50px;
-     }
-     .three-d{
-        background-color: green;
-        border: none;
-        color: white;
-        padding: 8px;
-        padding: 9px;
-        box-shadow: 3px 3px gray;
-     }
-     .three-d:active{
-        margin-left: 3px;
-        margin-top: 3px;
-        box-shadow: none;
-     }
-     .animations{
-        background-color: green;
-        border: none;
-        color: white;
-        padding: 8px;
-        padding: 9px;
-        margin: 5px;
-        animation: padding 1s;
-     }
-     .animations:hover{
-        padding: 20px;
-     }
-     .change{
-      background-color: rgb(9, 9, 112);
-      color:rgb(160, 156, 156);
-      padding: 20px;
-      font-size: 40px;
-      border-radius: 10px;
-     }
-     .change:hover span{ 
-      display: none;
-     }
-     .change:hover:before{
-      content: "You're Gay"
-     }
-    </style>
-<button class="stretch">Stretch</button>
-<button class="three-d">Shadow</button>
-<button class="animations">One</button>
-<button class="animations">Two</button>
-<button class="animations">Three</button>
-<button class="change"><span>Touch me</span></button>
-</body>
+<!DOCTYPE html>
+<html>
+    <head>
+<title>Youtube</title>
+<style>
+    .thumbnail {
+        width: 300px;
+        display: block;
+    }
+
+    .search-bar {
+       font-size: 20px;
+       margin-left: 10px; 
+    }
+    .video-tilte{
+        width: 300px;
+    }
+    .chanel{
+        display: block;
+    }
+    .stats{
+        display: inline-block;
+    }
+</style>
+    </head>
+    <body>
+        <input class="search-bar" type="text" placeholder="Search idiot">
+        <img class="thumbnail" src="download.jpg">
+        <p class="video-tilte">
+            SHOCKING NEW: CAT IS STUPID
+        </p>
+        <p class="chanel">
+            BBC News
+        </p>
+        <p class="stats">
+            3M views &#183; 6 months ago
+        </p>
+    </body>
+</html>
